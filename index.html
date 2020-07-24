@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WELL-FIT</title>
+  <link rel="stylesheet">
+  <style>
+     @viewport{
+      zoom:1.0;
+      width: extend-to-zoom;
+    }
+    @-ms-viewport{
+      width: extend-to-zoom;
+      zoom:1.0;
+    }
+   body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('bg.gif');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('kiru.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('image41.jpg');
+  min-height:660px;
+}
+
+
+.section{
+
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+.button{
+  position:absolute;
+  top:60%;
+  left:50%;
+  margin-top: 30px;
+ 
+  transform:translate(-50%,-50%);
+
+}
+.btn{
+  border:1px solid #fff;
+  padding:10px 30px;
+  color:black;
+  text-decoration: none;
+  transition:0.6s ease;
+  
+}
+.btn:hover{
+
+  background-color: white;
+  color:black;
+}
+.fixed-top img{
+  float:left;
+  width:160px;
+  height:200px;
+   top:0;
+   left:0;
+  position: fixed; 
+  margin-left: -23px; 
+  margin-top: -45px;
+  
+
+  
+
+  border-style: none;
+
+
+  
+}
+
+</style>
+</head>
+<body>
+  <div class="fixed-top">
+    <img src="logo1.png">
+  </div>
+  <div class="pimg1">
+    <div class="ptext">
+      <span>
+        <b><h1 style="color:black;font-size:40px;font-family: Garamond">Awaken your spirits with well fit</b></h1>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    
+
+      <center> <h2 style="color:white;font-size:30px">WHY IS HEALTH IMPORTANT TO US?</h2></center>
+    <center><p style="margin-top:10px;align-content: center;color:white;font-size:25px;font-family: Times New Roman">
+      Owing to the environment we live, safeguarding ourselves is a matter of concern. Health in itself is a dynamic concept and implying to absence of diseases. Health is central to human happiness and well-being. It makes an important contribution to economic progress, as healthy population live longer, are more productive and save more. Your energy level is a reflection of your overall health and well-being. It is appreciable if we pay attention to our health even before we face issues. Consistency is the key to good health. Keeping in mind our sedentary livelihood, we need to keep our body active and fit.
+    </p></center>
+  
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+         <center><p style="color:black;font-size: 50px;margin-top: -30px"><b>Think fit with well fit</b></p></center>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    
+      <center> <h2 style="color:white;font-size:30px">ABOUT</h2></center>
+    <center><p style="margin-top:10px;color:white;align-content: center;font-size:25px;font-family: Times New Roman">
+       Well fit is mainly designed to focus on health aspects of an individual as it is the need of the hour.
+This website contains basic information about some of the chronic diseases and crucial mental issues that are prevalent all over the world. Anyone using this website can assess themselves by answering a questionnaire for each disease to know the risk of getting it and therefore can stay cautious. 
+Also, the website provides some insights about the ongoing COVID-19 pandemic which has destructed the world and the precautions to be taken. The information has been refered and taken from reliable sources meticulously and useful information has been projected.
+    </p></center>
+    <div class="button">
+      <a href="2nd page.html" class="btn">EXPLORE MORE</a>
+    </div>
+
+  </section>
+   <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+          <p style="color:black;font-size: 50px;margin-top:20px "><b>Commit to be fit with well fit</p></b>
+      </span>
+    </div>
+  </div>
+
+  
+  
+
+  
+
+ 
+</body>
+</html>
