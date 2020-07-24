@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="shake.css">
+
+
+    <style>
+      .glow {
+  font-size: 30px;
+  color: blue;
+  position: absolute;
+  top:20px;
+  left: 430px;
+ 
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+ 
+  to {
+    text-shadow: 0 0 20px blue, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+h3{
+  color: red;
+}
+button{
+  padding: 20px;
+}
+body {
+
+
+  
+  font-family: 'Arial', sans-serif;
+  align-items: center;
+  font-size: 15px;
+  min-height: 100vh;
+  margin: 0;
+}
+.container{
+  background-color: white;
+  width: 650px;
+  height: 950px;
+  top:100px;
+  position: relative;
+  border-radius: 15px;
+ 
+  padding: 20px;
+ 
+}
+#id1{
+  bottom: 10px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.form-control input:focus {
+ 
+  border-color: blue;
+}
+
+
+h3{
+  color: red;
+  top:60px;
+   padding: 10px;
+
+}
+p{
+  text-align: center;
+  color: red;
+  font-family: "verdana";
+
+}
+#grad1{
+  height: 1100px;
+  background-color: red;
+  background-image: linear-gradient(to right,#3A1C71,
+#D76D77,
+#FFAF7B); 
+}
+        
+    </style>
+
+   
+</head>
+
+<body>
+  <div id="grad1">
+    <h1 class="glow">TEST YOURSELF FOR OBESITY</h1>
+
+   
+    <h1 class="glow">TEST YOURSELF FOR OBESITY</h1>
+
+   
+    <h2 id="answer"></h2>
+    <div class="container">
+    <form name="f" action="GET" >
+        <center><h3>Form fields can accept "Yes" or "No" only</h3></center>
+  <div class="form-group">
+    <label for="input1">1) Are you used to a sedentary lifestyle?</label>
+    <input type="text" name="INPUT1" class="form-control" id="input1" />
+  </div>
+  <div class="form-group">
+    <label for="input2">2) History of obesity prevalent in the family?</label>
+    <input type="text" class="form-control" id="input2" name="INPUT2">
+  </div>
+  <div class="form-group">
+    <label for="input3">3) Are you having a disturbed sleep cycle?</label>
+    <input type="text" class="form-control" id="input3" name="INPUT3">
+  </div>
+  <div class="form-group">
+    <label for="input4">4) Are you feeling low emotionally?</label>
+    <input type="text" class="form-control" id="input4" name="INPUT4">
+  </div>
+  <div class="form-group">
+    <label for="input5">5) Are you encountering back or joint pains?</label>
+    <input type="text" class="form-control" id="input5" name="INPUT5">
+  </div>
+  <div class="form-group">
+    <label for="input6">6) Do you feel to put on weight even after restricting your food intake?</label>
+    <input type="text" class="form-control" id="input6" name="INPUT6">
+  </div>
+  <div class="form-group">
+    <label for="input7">7) Do you smoke or drink?</label>
+    <input type="text" class="form-control" id="input7" name="INPUT7">
+  </div>
+  <p>This disclaimer provides that the result evaluated is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment.</p>
+  <div class="text-center">
+  <button type="button" class="btn btn-primary" id="button" onclick=calculate()>Assess</button></div><br><br>
+   <div class="alert alert-success" role="alert" id="al1"></div>
+        <div class="alert alert-warning" role="alert" id="al2"></div>
+
+        <div class="alert alert-danger" role="alert" id="al3"></div>
+ </div>
+
+</form>
+<script type="text/javascript">
+     function calculate()
+     {
+            var input1 = document.f.INPUT1.value;
+            var input2 = document.f.INPUT2.value;
+            var input3 = document.f.INPUT3.value;
+            var input4 = document.f.INPUT4.value;
+            var input5 = document.f.INPUT5.value;
+            var input6 = document.f.INPUT6.value;
+            var input7 = document.f.INPUT7.value;
+           
+           
+
+                var result = 0;
+               if(input1==="yes")
+                result+=25;
+               if(input2=="yes")
+                result+=20;
+               if(input3=="yes")
+                result+=20;
+               if(input4=="yes")
+                result+=5;
+               if(input5=="yes")
+                result+=10;
+               if(input6=="yes")
+                result+=20;
+               if(input7=="yes")
+                result+=5;
+
+           
+       
+            if(input1 == ""||input2 == ""||input3 == ""||input4 == ""||input5 == ""||input5 == ""||input6== ""||input7 == "") {
+                alert("All fields must be filled out!!");
+                return false;
+            }
+            if((input1!= "Yes" && input1!= "No") ||(input2!= "Yes" && input2!= "No") ||(input3!= "Yes" && input3!= "No")||(input4!= "Yes" && input4!= "No")  || (input5!= "Yes" && input5!= "No") ||(input6!= "Yes" && input6!= "No")||(input7!= "Yes" && input7!= "No"))  
+            {
+                alert("Field can only accept Yes or No!!");
+                return false;
+            }
+           
+   
+
+           
+
+          if (result >= 0 && result <= 40)
+                document.getElementById("al1").innerHTML = "The result is low";
+            if (result >= 41 && result <= 70)
+                document.getElementById("al2").innerHTML = "The result is medium";
+            if (result >= 71 && result <= 105)
+                document.getElementById("al3").innerHTML = "The result is high";
+
+       }
+   
+       </script>
+</div>
+
+</body>
+</html>

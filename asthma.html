@@ -1,0 +1,497 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="ascss.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+</head>
+<style>
+  center{
+margin-top:2%;
+
+}
+.boxed {
+  border: 1px solid white ;
+ 
+
+  border-radius: 8px;
+
+}
+
+ 
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+html, body {
+height: 100%;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background: ;
+color: #707070;
+}
+
+
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+}
+
+p, ol, ul {
+margin-top: 0px;
+}
+
+p {
+line-height: 180%;
+}
+
+strong {
+}
+
+a {
+color: #FEE722;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a img {
+border: none;
+}
+
+img.border {
+
+
+}
+
+img.alignleft {
+float: left;
+}
+
+img.alignright {
+float: right;
+}
+
+img.aligncenter {
+margin: 0px auto;
+}
+
+hr {
+display: none;
+}
+#wrapper {
+}
+
+#banner-wrapper
+{
+overflow: hidden;
+
+background: url("as.jpg") no-repeat top ;
+background-size: cover;
+}
+
+
+
+.container {
+width: 800px;
+margin: 0px auto;
+color: black;
+}
+.container2{
+width: 800px;
+margin: 0px auto;
+
+}
+}
+.clearfix {
+clear: both;
+}
+
+/** HEADER */
+
+#header {
+overflow: hidden;
+height: 60px;
+}
+
+/** LOGO */
+
+#logo {
+position: relative;
+float: left;
+width: 480px;
+}
+
+#logo h1, #logo p {
+margin: 0px;
+line-height: normal;
+}
+
+#logo h1 a {
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+font-weight: 1000;
+text-decoration: none;
+text-transform: uppercase;
+line-height: 60px;
+color: #FFF;
+}
+
+/** MENU */
+
+#menu {
+float: right;
+}
+
+#menu ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+line-height: normal;
+}
+
+#menu li {
+float: left;
+padding: 0px 2em;
+}
+
+#menu a {
+display: block;
+line-height: 60px;
+text-decoration: none;
+text-transform: uppercase;
+color: #FFF;
+}
+
+#menu a:hover {
+text-decoration: underline;
+}
+
+/** PAGE */
+
+#page {
+overflow: hidden;
+padding: 5em 0em 0em 0em;
+}
+
+/** CONTENT */
+
+#content {
+float: center;
+width: 800px;
+}
+
+.post {
+overflow: hidden;
+padding: 50px 50px 30px 50px;
+margin-bottom: 40px;
+border: 1px solid #E7EBED;
+border-radius: 8px;
+background: #FFF;
+}
+
+.post a
+{
+color: #262626;
+
+}
+
+.post .title {
+padding: 7px 0px 0px 0px;
+letter-spacing: -1px;
+}
+
+.post .title a {
+border: none;
+font-size: 1.5em;
+letter-spacing: -2px;
+text-decoration: none;
+font-weight: 600;
+color: #222222;
+}
+
+.post .meta {
+margin-bottom: 30px;
+padding: 10px 0px 0px 0px;
+text-align: left;
+font-weight: 300;
+}
+
+.post .meta .date {
+float: left;
+}
+
+.post .meta .posted {
+float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+padding: 0px 0px 40px 0px;
+text-align: justify;
+}
+
+.links {
+padding-top: 20px;
+margin-bottom: 30px;
+}
+
+h2{
+  margin-top: 10px;
+}
+ul{
+  margin-top: 8px;
+}
+
+h3{
+  margin-top: 15px;
+}
+
+
+ol{
+  margin-top: 8px;
+}
+p.a {
+  font-family: 'American Typewriter', serif;
+  margin-top: 5px;
+
+}
+a{
+  color: white;
+ font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  -webkit-text-decoration-line: underline;
+   text-decoration-line: underline;
+   font-size: 20px;
+
+ 
+ }
+ button{
+  margin-left: 10px;
+  margin-top: 15px;
+ }
+ p.none {
+  border-style: none;
+  background-color: #9400D3 ;
+  text-align: center;
+  margin-top: 10px;
+
+
+ 
+
+ }
+#grad1{
+  height: 3450px;
+  background-color: red;
+  background-image: linear-gradient(to right,#3A1C71,
+#D76D77,
+#FFAF7B);
+}</style>
+<body>
+  <body>
+  <div id="grad1">
+<a href="index.html"><button type="button" class="btn btn-danger">Home</button></a>
+ <p class="none"><a href="asthma form.html">Evaluate Asthma symptoms and understand next steps ></a></p>
+<center>
+<img src="asthma.jpg" width="1300" height="250">
+</center>
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+<p style="font-size:30px" class="a" >WHAT IS ASTHMA?</p>
+<p style="font-size:20px;font-family:Times New Roman
+">Asthma is a long-term disease of the lungs. This can make breathing difficult and trigger coughing, wheezing and shortness of breath. Asthma can't be cured, but it's symptoms can be controlled.  It involves inflammation and narrowing inside the lungs, which restricts air supply.</p></div>
+</div>
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;margin-left: 19px" class="a" >SYMPTOMS</p>
+ 
+
+  <ul>
+   
+ 
+ 
+  <li style="font-size: 20px;font-family:Times New Roman
+">Chest tightness or pain</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Trouble sleeping caused by shortness of breath, coughing or wheezing</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">A whistling or wheezing sound when exhaling (wheezing is a common sign of asthma in children).</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Coughing or wheezing attacks that are worsened by a respiratory virus, such as a cold or the flu.</li>
+ 
+ 
+
+</ul>
+</p></div>
+</div>
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;margin-left: 19px" class="a" >WHAT CAUSES ASTHMA?</p>
+ 
+<ul>
+  <li style="font-size:20px;font-family:Times New Roman
+">Pollens</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Dust mites</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Mold spores</li>
+ <li style="font-size:20px;font-family:Times New Roman
+">Pet dander</li>
+ <li style="font-size:20px;font-family:Times New Roman
+">Particles of cockroach waste</li>
+
+ 
+</ul></div>
+</div>
+<div class="post">
+
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;margin-left: 21px" class="a">HOW TO CONTROL ASTHMA?</p>
+<ul>
+  <li style="font-size:20px;font-family:Times New Roman;margin-top: 10px">Know your triggers and avoid them. Triggers like allergens and irritants can make  your asthma symptoms worse by irritating your airways.The best way to control your asthma is to know what your asthma triggers are and how to avoid them.</li>
+  <li style="font-size:20px;font-family:Times New Roman ;margin-top: 10px">Take your asthma medication as prescribed by your doctor.Many people think they can skip their asthma preventer(controller) medications when they don't feel any symptoms that's not true. </li>
+   
+  <li style="font-size:20px;font-family:Times New Roman ;margin-top: 10px">Asthma is a chronic (long-term) disease. If you have asthma, you have it all the time, even when you don't feel symptoms. You have to manage your asthma every day, not just on days when you feel symptoms.</li>
+  <li style="font-size:20px;font-family:Times New Roman ;margin-top: 10px">Quit smoking and avoid second-hand smoke.If you smoke and have asthma, you should quit smoking as this can significantly reduce the severity and frequency of your symptoms. Smoking can also reduce the effectiveness of asthma medication.</li>
+
+<li style="font-size:20px;font-family:Times New Roman ;margin-top: 10px">Keep fit by exercising.Exercise helps by strengthening your breathing muscles, boosting your immune system and helping to keep a healthy body weight.The key to exercising safely is to make sure your asthma is under control before you start.</li>
+<li style="font-size:20px;font-family:Times New Roman;margin-top: 10px">Be in control, get an asthma action plan.Asthma symptoms are variable they can get worse or better, depending on many things – you need to know how to adjust your medicines depending on your symptoms and when to seek medical help.</li>
+</ul>
+
+
+
+
+
+
+</div>
+</div>
+
+<p style="font-size:30px;color:black;margin-left: 18px" class="a">FOOD THAT REGULATES ASTHMA</p>
+
+
+
+      <div class="container">
+ 
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="nuts1.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">They've got lots of good things in them, but one in particular that might be good for asthma is vitamin E. Almonds and hazelnuts are good sources, as well as cruciferous vegetables like broccoli and kale. Vitamin E has tocopherol, a chemical that could help cut how much you cough and wheeze from asthma.</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="ginger.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Ginger can do more than quell an upset stomach,it may also help relieve asthma symptoms. That’s because certain components in ginger might help relax the airways.Further, ginger may have direct activity on smooth airway muscles as studies have demonstrated it to have broncho relaxation properties.</p>
+          </div>
+       
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+     
+          <img src="tomatoes.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Fruity vegetables like tomatoes and pumpkins are high in vitamin C, rich in antioxidants and a good choice for anti-asthma diet and control. Tomatoes can build your tolerance against asthma and respiratory issues. Vitamin C is an immune system booster and natural antihistamine, which suppresses swelling.</p>
+          </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+ 
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="spin.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Spinach and other leafy greens like kale contain large doses of vitamin C, which is known to promote a healthy immune system and reduce wheezing in children. Aim for a rainbow of fruits and veggies to get the most of their protective effects.</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="turmeric.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Famous for its bright yellow hue, turmeric is a staple of Indian cuisine. But this spice can offer more than just a pop of color and flavor — its active ingredient, curcumin, may also help quell the inflammation in asthmatic airways.</p>
+          </div>
+       
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+     
+          <img src="broccoli.jpg" style="width:100% height:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Sulforaphane,a chemical in broccoli, triggers an increase of antioxidant enzymes in the human airway. These in turn offer protection against the on slaught of free radicals that we breathe in every day in polluted air.</p>
+          </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

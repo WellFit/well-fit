@@ -1,0 +1,515 @@
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="dbcss.css" rel="stylesheet" type="text/css" media="all" />
+  <style>
+center{
+  margin-top:2%;
+
+}
+.boxed {
+  border: 1px solid white ;
+  background: white;
+
+  border-radius: 8px;
+
+}
+
+    
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+html, body {
+height: 100%;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background: #202223;
+color: #707070;
+}
+
+
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+}
+
+p, ol, ul {
+margin-top: 0px;
+}
+
+p {
+line-height: 180%;
+}
+
+strong {
+}
+
+a {
+color: #FEE722;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a img {
+border: none;
+}
+
+img.border {
+
+
+}
+
+img.alignleft {
+float: left;
+}
+
+img.alignright {
+float: right;
+}
+
+img.aligncenter {
+margin: 0px auto;
+}
+
+hr {
+display: none;
+}
+#wrapper {
+}
+
+#banner-wrapper
+{
+overflow: hidden;
+
+background: url("d.jpg") no-repeat top ;
+background-size: cover;
+}
+
+
+
+.container {
+width: 800px;
+margin: 0px auto;
+color: black;
+}
+.container2{
+width: 800px;
+margin: 0px auto;
+
+}
+}
+.clearfix {
+clear: both;
+}
+
+/** HEADER */
+
+#header {
+overflow: hidden;
+height: 60px;
+}
+
+/** LOGO */
+
+#logo {
+position: relative;
+float: left;
+width: 480px;
+}
+
+#logo h1, #logo p {
+margin: 0px;
+line-height: normal;
+}
+
+#logo h1 a {
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+font-weight: 1000;
+text-decoration: none;
+text-transform: uppercase;
+line-height: 60px;
+color: #FFF;
+}
+
+/** MENU */
+
+#menu {
+float: right;
+}
+
+#menu ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+line-height: normal;
+}
+
+#menu li {
+float: left;
+padding: 0px 2em;
+}
+
+#menu a {
+display: block;
+line-height: 60px;
+text-decoration: none;
+text-transform: uppercase;
+color: #FFF;
+}
+
+#menu a:hover {
+text-decoration: underline;
+}
+
+/** PAGE */
+
+#page {
+overflow: hidden;
+padding: 5em 0em 0em 0em;
+}
+
+/** CONTENT */
+
+#content {
+float: center;
+width: 800px;
+}
+
+.post {
+overflow: hidden;
+padding: 50px 50px 30px 50px;
+margin-bottom: 40px;
+border: 1px solid #E7EBED;
+border-radius: 8px;
+background: #FFF;
+}
+
+.post a
+{
+color: #262626;
+
+}
+
+.post .title {
+padding: 7px 0px 0px 0px;
+letter-spacing: -1px;
+}
+
+.post .title a {
+border: none;
+font-size: 1.5em;
+letter-spacing: -2px;
+text-decoration: none;
+font-weight: 600;
+color: #222222;
+}
+
+.post .meta {
+margin-bottom: 30px;
+padding: 10px 0px 0px 0px;
+text-align: left;
+font-weight: 300;
+}
+
+.post .meta .date {
+float: left;
+}
+
+.post .meta .posted {
+float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+padding: 0px 0px 40px 0px;
+text-align: justify;
+}
+
+.links {
+padding-top: 20px;
+margin-bottom: 30px;
+}
+p.ex1{
+  padding-top:15px;
+}
+h2{
+  margin-top: 10px;
+}
+ul{
+  margin-top: 8px;
+}
+h3{
+  margin-top: 15px;
+}
+
+p{
+  margin-top: 10px;
+}
+ol{
+  margin-top: 8px;
+}
+p.a {
+  font-family: 'American Typewriter', serif;
+}
+ p.none {
+  border-style: none;
+  background-color:#9400D3;
+  text-align: center;
+
+
+  
+
+ }
+ a{
+  color: white;
+ font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  -webkit-text-decoration-line: underline; 
+   text-decoration-line: underline;
+   font-size: 20px;
+  
+ }
+ button{
+  margin-left: 10px;
+  margin-top: 10px;
+ }
+ #grad1{
+  height: 3600px;
+  background-color: red;
+  background-image: linear-gradient(to right,#3A1C71,
+#D76D77,
+#FFAF7B); 
+}
+
+  </style>
+  
+</head>
+
+<body>
+<div id="grad1">
+  <a href="index.html"><button type="button" class="btn btn-danger">Home</button></a>
+ <p class="none"><a href="HM form.html">Evaluate hormonal imbalance symptoms and understand next steps ></a></p>
+<center>
+<img src="hormonal.jpg" width="1300" height="250">
+</center>
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+<p style="font-size:30px;" class="a">WHAT IS HORMONAL IMBALANCE?</a>
+	<p style="font-size:20px;font-family:Times New Roman
+">Hormonal imbalances occur when there is too much or too little of a hormone in the bloodstream. Hormones are chemicals that are produced by glands in the endocrine system. Hormones travel through the bloodstream to the tissues and organs, delivering messages that tell the organs what to do and when to do what.</p></div>
+</div>
+	<div class="post">
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;margin-left: 19px" class="a">SYMPTOMS</p>
+
+  <ul>
+  <li style="font-size:20px;font-family:Times New Roman
+">Unexplained weight gain or weight loss</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Unexplained or excessive sweating</li>
+  
+  <li style="font-size:20px;font-family:Times New Roman
+">Changes in sensitivity to cold and heat</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Very dry skin or skin rashes</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Increased thirst</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Bloating</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Thinning, brittle hair</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Infertility</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Deepening of the voice in females</li>
+  
+
+</ul></div>
+</div>
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;margin-left: 19px" class="a">WHAT CAUSES HORMONAL IMBALANCE?</p>
+<ul>
+  <li style="font-size:20px;font-family:Times New Roman
+">Puberty</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Menstruation</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Pregnancy, childbirth and birth-feeding</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Premenopause, menopause, and postmenopause</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Aging</li>
+</ul></div>
+</div>
+<div class="post">
+
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;margin-left: 19px" class="a">HOW TO CONTROL HORMONAL IMBALANCE?</p>
+
+<ol>
+ <li style="font-size:20px;font-family:Times New Roman
+">Eat enough protein at every meal</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Engage in regular exercise</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Avoid sugar and refined carbs</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Learn to manage stress</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Consume healthy fats</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Avoid overeating and undereating</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Drink green tea</li>
+
+
+</ol></div>
+</div>
+
+
+<p style="font-size:30px;color:black;margin-left: 19px" class="a">FOOD THAT REGULATE HORMONAL IMBALANCE</p>
+  
+
+
+      <div class="container">
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="avocado.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Avocados are a great source of vitamins C, E, K.Avocados are a delicious addition to any meal, but they can do a lot more for your health than you think and help balance the stress hormone "Cortisol".Avocados are very nutritious and contain a wide variety of nutrients, including 20 different vitamins and minerals.The plant sterols present in avocados also have an effect on estrogen and progesterone, the two hormones responsible for regulating ovulation and menstrual cycles.</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="flaxseed.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Flaxseed is a significant source of phytoestrogens, and it specifically contains a type of phytoestrogen called lignans.Lignans have both an estrogenic and antiestrogenic effect, and they have been suggested to have protective benefits against certain types of cancer.It help women’s fertility by improving their chances of conception. Flax seed is also a great source of omega-3 fatty acids, fiber, and antioxidants. try eating it in your oatmeal, or even throw it in your smoothy.</p>
+          </div>
+        
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+     
+          <img src="fish.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Salmon is one of the most nutritious foods on the planet.Eating salmon as part of your regular diet may give you a radiant skin.It is important to eat fatty fish, which is high in omega-3s at least twice per week. A 3.5 ounce serving of salmon fish  can not only keep your heart healthy, it can help those at risk for cardiovascular disease. It reduce fat and  provides excellent good fats for cell-to-cell communication, which leads to overall improved hormonal communication.</p>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="broccoli1.jpg" alt="Lights" style="width:100%;height:4.2%">
+
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">There's a reason you were always told to eat your broccoli. On
+top of its multitude of health benefits, broccoli can also work to
+balance your hormones. This cruciferous vegetable can help
+maintain estrogen balance, and since it is so high in calcium, it
+can also help with premenstrual syndrome.But broccoli isn't alone in being able to do this.
+Other cruciferous vegetables you can enjoy include cauliflower,
+Brussel sprouts, cabbage, turnips, and kale.</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="nuts.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Nuts are highly nutritious.Nuts like almonds have an effect on your endocrine
+system, which can assist in lowering your levels of cholesterol.They can also help lower insulin
+and maintain blood sugar levels. Walnuts in particular contain
+polyphenols, which can protect our heart and cardiovascular
+system by fighting free radicals in our body. This component can
+also have anti-inflammatory properties, and they're rich in
+omega-3s.</p>
+          </div>
+        
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+     
+          <img src="quinoa.jpg" style="width:100% height:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Quinoa is one of the most protein-rich foods we can eat.It is rich in magnesium and contains iron, it can help keep your blood sugar levels steady.Quinoa is high in protein, so it helps keep blood sugar stable. It contains almost twice as much fiber as most other grains.The proteins in quinoa offer a wide range of amino acids. Amino acids are vital for supporting muscle development and immune activity that eases good health.</p>
+          </div>
+        
+      </div>
+    </div>
+ 
+
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,512 @@
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="dbcss.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+  <style>
+center{
+	margin-top:2%;
+
+}
+.boxed {
+  border: 1px solid white ;
+  background: white;
+
+  border-radius: 8px;
+
+}
+
+  
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+html, body {
+height: 100%;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background: #202223;
+color: #707070;
+}
+
+
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+}
+
+p, ol, ul {
+margin-top: 0px;
+}
+
+p {
+line-height: 180%;
+}
+
+strong {
+}
+
+a {
+color: #FEE722;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a img {
+border: none;
+}
+
+img.border {
+
+
+}
+
+img.alignleft {
+float: left;
+}
+
+img.alignright {
+float: right;
+}
+
+img.aligncenter {
+margin: 0px auto;
+}
+
+hr {
+display: none;
+}
+#wrapper {
+}
+
+#banner-wrapper
+{
+overflow: hidden;
+
+background: url("d.jpg") no-repeat top ;
+background-size: cover;
+}
+
+
+
+.container {
+width: 800px;
+margin: 0px auto;
+color: black;
+}
+.container2{
+width: 800px;
+margin: 0px auto;
+
+}
+}
+.clearfix {
+clear: both;
+}
+
+/** HEADER */
+
+#header {
+overflow: hidden;
+height: 60px;
+}
+
+/** LOGO */
+
+#logo {
+position: relative;
+float: left;
+width: 480px;
+}
+
+#logo h1, #logo p {
+margin: 0px;
+line-height: normal;
+}
+
+#logo h1 a {
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+font-weight: 1000;
+text-decoration: none;
+text-transform: uppercase;
+line-height: 60px;
+color: #FFF;
+}
+
+/** MENU */
+
+#menu {
+float: right;
+}
+
+#menu ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+line-height: normal;
+}
+
+#menu li {
+float: left;
+padding: 0px 2em;
+}
+
+#menu a {
+display: block;
+line-height: 60px;
+text-decoration: none;
+text-transform: uppercase;
+color: #FFF;
+}
+
+#menu a:hover {
+text-decoration: underline;
+}
+
+/** PAGE */
+
+#page {
+overflow: hidden;
+padding: 5em 0em 0em 0em;
+}
+
+/** CONTENT */
+
+#content {
+float: center;
+width: 800px;
+}
+
+.post {
+overflow: hidden;
+padding: 50px 50px 30px 50px;
+margin-bottom: 40px;
+border: 1px solid #E7EBED;
+border-radius: 8px;
+background: #FFF;
+}
+
+.post a
+{
+color: #262626;
+
+}
+
+.post .title {
+padding: 7px 0px 0px 0px;
+letter-spacing: -1px;
+}
+
+.post .title a {
+border: none;
+font-size: 1.5em;
+letter-spacing: -2px;
+text-decoration: none;
+font-weight: 600;
+color: #222222;
+}
+
+.post .meta {
+margin-bottom: 30px;
+padding: 10px 0px 0px 0px;
+text-align: left;
+font-weight: 300;
+}
+
+.post .meta .date {
+float: left;
+}
+
+.post .meta .posted {
+float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+padding: 0px 0px 40px 0px;
+text-align: justify;
+}
+
+.links {
+padding-top: 20px;
+margin-bottom: 30px;
+}
+
+h2{
+  margin-top: 10px;
+}
+
+h3{
+  margin-top: 15px;
+}
+
+
+ol{
+  margin-top: 8px;
+}
+p.a {
+  font-family: 'American Typewriter', serif;
+
+}
+a{
+  color: white;
+ font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  -webkit-text-decoration-line: underline; 
+   text-decoration-line: underline;
+   font-size: 20px;
+  
+ }
+ button{
+  margin-left: 10px;
+  margin-top: 10px;
+ }
+ p.none {
+  border-style: none;
+  background-color: #9400D3 ;
+  text-align: center;
+  margin-top: 10px;
+
+
+  
+
+ }
+#grad1{
+  height: 3500px;
+  background-color: red;
+  background-image: linear-gradient(to right,#3A1C71,
+#D76D77,
+#FFAF7B); 
+}
+
+  </style>
+  
+</head>
+
+<body>
+  <div id="grad1">
+	<a href="index.html"><button type="button" class="btn btn-danger">Home</button></a>
+ <p class="none"><a href="HT form.html">Evaluate hypertension symptoms and understand next steps ></a></p>
+<center>
+<img src="hbp.jpg" width="1300" height="250">
+</center>
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+<p style="font-size:30px" class="a" >WHAT IS HYPERTENSION?</p>
+	<p style="font-size:20px;font-family:Times New Roman
+">High blood pressure, or hypertension, occurs when blood pressure increases to unhealthy levels. Blood pressure measurement takes into account how much blood is passing through your blood vessels and the amount of resistance the blood meets while the heart is pumping.</p></div>
+</div>
+	<div class="post">
+<div style="clear: both;"></div>
+
+<div class="entry"><p style="font-size:30px;margin-left: 19px" class="a" >SYMPTOMS</p>
+  <p class="ex1">
+
+  <ul>
+  <li style="font-size:20px;font-family:Times New Roman
+">Headaches</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Shortness of breath</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Nosebleeds</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Flushing</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Dizziness</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Chest Pain</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Visual changes</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Blood in the urine</li>
+  
+  
+
+</ul>
+</p></div>
+</div>
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;margin-left: 19px" class="a" >WHAT CAUSES HYPERTENSION?</p>
+  <p class="ex1">
+<ul>
+  <li style="font-size:20px;font-family:Times New Roman
+">Genes</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Physical changes</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Environmental changes</li>
+<li style="font-size:20px;font-family:Times New Roman
+">Kidney diseases</li>
+<li style="font-size:20px;font-family:Times New Roman
+">Diabetes</li>
+  
+</ul></p></div>
+</div>
+<div class="post">
+
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px" class="a" >HOW TO CONTROL HYPERTENSION?</p>
+  <p style="font-size:25px" class="a">~Increasing Physical Activity</p>
+  <p style="font-size:20px;font-family:Times New Roman
+">Reaching a healthy weight should include being more physically active. In addition to helping you shed pounds, exercise can help reduce stress, lower blood pressure naturally, and strengthen your cardiovascular system.</p>
+  <p style="font-size:25px" class="a">~Reaching a Healthy Weight</p>
+  <p style="font-size:20px;font-family:Times New Roman
+">If you are overweight or obese, losing weight through a
+healthy diet and increased physical activity can help lower your
+blood pressure.</p>
+    
+  <p style="font-size:25px" class="a">~Managing Stress</p>
+  <p style="font-size:20px;font-family:Times New Roman
+">Exercise is a great way to manage stress. Other activities like meditation, deep breathing, massage, muscle relaxation also help.</p>
+  <p style="font-size:25px" class="a">~Adopting a Cleaner Lifestyle</p>
+  <p style="font-size:20px;font-family:Times New Roman
+">If you’re a smoker, try to quit. The chemicals in tobacco smoke
+damage the body’s tissues and harden the blood vessel
+walls. Consumption of alcohol can raise blood pressure.</p>
+
+
+
+</div>
+</div>
+
+<p style="font-size:30px;color:black;margin-left: 20px" class="a">FOOD THAT REGULATES HYPERTENSION</p>
+	
+
+
+      <div class="container">
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="leafy green.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Leafy greens are packed with vitamins, minerals and fiber.Potassium helps your kidneys get rid of more sodium through your urine. This in turn lowers your blood pressure, heart disease, obesity and mental decline.</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="pomegranate.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Pomegranates are a healthy fruit that you can enjoy raw or as a
+juice. Drinking a cup of pomegranate juice once a day for four weeks helps lower blood pressure and improves memory function over the short term.</p>
+          </div>
+        
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+     
+          <img src="skimmilk.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Skim milk is healthy for those looking for a safe, natural and rich source of protein.Skim milk is an excellent source of calcium and is low in fat.
+These are both important elements of a diet for lowering blood
+pressure.</p>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="berries.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Berries may improve your blood sugar and insulin levels.Berries, especially blueberries, are rich in natural compounds
+called flavonoids. Blueberries, raspberries, and strawberries are
+easy to add to your healthy dessert.</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="oatmeal.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Oatmeal can soak up the excess oil on your skin and help treat acne. It fits the bill for a high-fiber, low-fat, and low-sodium way to lower your blood pressure. Eating oatmeal for breakfast is a great way to fuel up for the day.</p>
+          </div>
+        
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+     
+          <img src="banana.jpg" style="width:100% height:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Eating foods that are rich in potassium is better than taking supplements. Slice a banana into your cereal or oatmeal for a potassium-rich addition. You can also take one to go along with a boiled egg for a quick breakfast or snack.</p>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>

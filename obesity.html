@@ -1,0 +1,531 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="obcss.css" rel="stylesheet" type="text/css" media="all" />
+<style>
+ center{
+  margin-top:2%;
+
+}
+.boxed {
+  border: 1px solid white ;
+  background: white;
+
+  border-radius: 8px;
+
+}
+
+    
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+html, body {
+height: 100%;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background: #202223;
+color: #707070;
+}
+
+
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+}
+
+p, ol, ul {
+margin-top: 0px;
+}
+
+p {
+line-height: 180%;
+}
+
+strong {
+}
+
+a {
+color: #FEE722;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a img {
+border: none;
+}
+
+img.border {
+
+
+}
+
+img.alignleft {
+float: left;
+}
+
+img.alignright {
+float: right;
+}
+
+img.aligncenter {
+margin: 0px auto;
+}
+
+hr {
+display: none;
+}
+#wrapper {
+}
+
+#banner-wrapper
+{
+overflow: hidden;
+
+background: url("d.jpg") no-repeat top ;
+background-size: cover;
+}
+
+
+
+.container {
+width: 800px;
+margin: 0px auto;
+color: black;
+}
+.container2{
+width: 800px;
+margin: 0px auto;
+
+}
+}
+.clearfix {
+clear: both;
+}
+
+/** HEADER */
+
+#header {
+overflow: hidden;
+height: 60px;
+}
+
+/** LOGO */
+
+#logo {
+position: relative;
+float: left;
+width: 480px;
+}
+
+#logo h1, #logo p {
+margin: 0px;
+line-height: normal;
+}
+
+#logo h1 a {
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+font-weight: 1000;
+text-decoration: none;
+text-transform: uppercase;
+line-height: 60px;
+color: #FFF;
+}
+
+/** MENU */
+
+#menu {
+float: right;
+}
+
+#menu ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+line-height: normal;
+}
+
+#menu li {
+float: left;
+padding: 0px 2em;
+}
+
+#menu a {
+display: block;
+line-height: 60px;
+text-decoration: none;
+text-transform: uppercase;
+color: #FFF;
+}
+
+#menu a:hover {
+text-decoration: underline;
+}
+
+/** PAGE */
+
+#page {
+overflow: hidden;
+padding: 5em 0em 0em 0em;
+}
+
+/** CONTENT */
+
+#content {
+float: center;
+width: 800px;
+}
+
+.post {
+overflow: hidden;
+padding: 50px 50px 30px 50px;
+margin-bottom: 40px;
+border: 1px solid #E7EBED;
+border-radius: 8px;
+background: #FFF;
+}
+
+.post a
+{
+color: #262626;
+
+}
+
+.post .title {
+padding: 7px 0px 0px 0px;
+letter-spacing: -1px;
+}
+
+.post .title a {
+border: none;
+font-size: 1.5em;
+letter-spacing: -2px;
+text-decoration: none;
+font-weight: 600;
+color: #222222;
+}
+
+.post .meta {
+margin-bottom: 30px;
+padding: 10px 0px 0px 0px;
+text-align: left;
+font-weight: 300;
+}
+
+.post .meta .date {
+float: left;
+}
+
+.post .meta .posted {
+float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+padding: 0px 0px 40px 0px;
+text-align: justify;
+}
+
+.links {
+padding-top: 20px;
+margin-bottom: 30px;
+}
+p.ex1{
+  padding-top:15px;
+}
+h2{
+  margin-top: 10px;
+}
+ul{
+  margin-top: 8px;
+}
+h3{
+  margin-top: 15px;
+}
+
+p{
+  margin-top: 10px;
+}
+ol{
+  margin-top: 8px;
+}
+td{
+  text-align:center;
+}
+th{
+  text-align:center;
+}
+p.a {
+  font-family: 'American Typewriter', serif;
+}
+a{
+  color: white;
+ font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  -webkit-text-decoration-line: underline; 
+   text-decoration-line: underline;
+   font-size: 20px;
+  
+ }
+ button{
+  margin-left: 10px;
+  margin-top: 10px;
+ }
+ p.none {
+  border-style: none;
+  background-color: #9400D3 ;
+  text-align: center;
+
+
+  
+
+ }
+#grad1{
+  height: 3120px;
+  background-color: red;
+  background-image: linear-gradient(to right,#3A1C71,
+#D76D77,
+#FFAF7B); 
+}
+</style>
+</head>
+<body>
+  <div id="grad1">
+
+ 
+<a href="index.html"><button type="button" class="btn btn-danger">Home</button></a>
+ <p class="none"><a href="obesity form.html">Evaluate obesity symptoms and understand next steps ></a></p>
+<center>
+<img src="obesity.jpg" width="1300" height="250">
+</center>
+
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+  <div id="content">
+    <div class="post">
+      <div style="clear: both;"></div>
+      <div class="entry">
+        <p style="font-size:30px;" class="a">WHAT IS OBESITY?</p>
+        <p style="font-size:20px;font-family:Times New Roman
+">Obesity is a treatable disease that is a worldwide health concern associated with having an excess amount of body fat. It is caused by genetic and environmental factors and can be difficult to control through dieting alone. Obesity is diagnosed by a healthcare provider and is classified as having a body mass index (BMI) of 30 or greater.</p>  
+      </div>
+    </div>
+    <div class="post">
+      <div style="clear: both;"></div>
+      <div class="entry">
+        <p style="font-size:30px;" class="a">SYMPTOMS</p>
+          
+           <table border="1" width="600" height="200" cellpadding="10" cellspacing="3">
+           
+             <tr>
+                <th>BMI</th>
+                <th>Weight status</th>
+             </tr>
+             <tr>  
+                <td style="font-size:20px;color:black;font-family:Times New Roman
+">  Below 18.5</td>
+                <td style="font-size:20px;color:black;font-family:Times New Roman
+">Underweight</td>
+             </tr>
+             <tr>
+                <td style="font-size:20px;color:black;font-family:Times New Roman
+">18.5-24.9</td>
+                <td style="font-size:20px;color:black;font-family:Times New Roman
+">Normal</td>
+             </tr>
+             <tr>
+              <td style="font-size:20px;color:black;font-family:Times New Roman
+">25.5-29.9</td>
+              <td style="font-size:20px;color:black;font-family:Times New Roman
+">Overweight</td>
+             </tr>
+             <tr>
+              <td style="font-size:20px;color:black;font-family:Times New Roman
+">30.0 and higher</td>
+              <td style="font-size:20px;color:black;font-family:Times New Roman
+">Obesity</td>
+             </tr>
+           
+           </table>
+          
+      </div>
+    </div>
+    <div class="post">
+      <p style="font-size:30px;margin-left: 15px" class="a">WHAT CAUSES OBESITY?</p>
+      <div style="clear: both;"></div>
+      <div class="entry">
+        
+          <ul>
+            <li style="font-size:20px;font-family:Times New Roman
+">Psychological Factors</li>
+            <li style="font-size:20px;font-family:Times New Roman
+">Energy In/Energy Out</li>
+            <li style="font-size:20px;font-family:Times New Roman
+">Sleep Deprivation</li>
+            <li style="font-size:20px;font-family:Times New Roman
+">Changes in appetite</li>
+            <li style="font-size:20px;font-family:Times New Roman
+">Genetic Factors</li>
+            <li style="font-size:20px;font-family:Times New Roman
+">Inactivity</li>
+          </ul>
+        
+      </div>
+    </div>
+    <div class="post">
+      <p style="font-size:30px;margin-left: 18px" class="a">HOW TO CONTROL OBESITY?</p>
+      <div style="clear: both;"></div>
+      <div class="entry">
+        
+          <ul>
+            <li style="font-size:20px;font-family:Times New Roman
+">Exercise regularly. </li>
+            <li style="font-size:20px;font-family:Times New Roman
+">Follow a healthy-eating plan</li>
+            <li style="font-size:20px;font-family:Times New Roman
+">Know and avoid the food traps that cause you to eat. .</li>
+            <li style="font-size:20px;font-family:Times New Roman
+">Monitor your weight regularly.</li>
+            <li style="font-size:20px;font-family:Times New Roman
+">Be consistent.</li>
+          </ul>
+        
+      </div>
+    </div>
+   
+
+ 
+
+
+
+
+
+
+<p style="font-size:30px;color:black;margin-left: 19px" class="a">FOOD THAT REGULATE OBESITY</p>
+  
+
+
+      <div class="container">
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="skimmilk.jpg" style="width:100%">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Skim milk is healthy for those looking for a safe, natural and rich source of protein.Skim milk is an excellent source of calcium and is low in fat. These are both important elements of a diet for lowering blood pressure.</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="beans.jpg" alt="Nature" style="width:250;height:154px">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Beans are packed with protein, fiber, vitamins, iron, and potassium, which regulate blood flow in the body and cuts down fat. Green beans are low in fat and high in dietary fiber. Black beans are cholesterol-free and low on saturated fat.</p>
+          </div>
+        
+      </div>
+    </div>
+
+  
+  
+    <div class="col-md-4 ">
+      <div class="thumbnail">
+     
+          <img src="lemo.jpg" alt="Fjords" style="width:250;height:154px">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Lemons are a rich intake of Vitamin-C.They induce acids to burn down the fat in the stomach.A warm glass of water with a splash of lemon can break down the fat and stimulate digestion and aid to clean the stomach.</p>
+          </div>
+        
+      </div>
+    </div>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+  
+    <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="chia.jpg" alt="Lights" style="width:250;height:154px">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Chia seeds are natural coolants.The reduce the amount of heat in the body.Soak a tablespoon of chia seeds for more than 2 hours and consume.They support fat suppression and build fat buning cells.</p>
+          </div>
+     
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="apple.jpg" alt="Lights" style="width:250;height:154px">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Apples are one of the best fruits for weight loss considering they offer high fiber (which naturally speeds up the digestion), low calories, and are composed mostly of water. They are also quite versatile in how they are eaten.</p>
+          </div>
+     
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="darkchoco.jpg" alt="Lights" style="width:250;height:154px">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Dark chocolate has benefits such as helping with weight loss, stabilizing blood sugar, controlling appetite and reducing cravings. It also tends to improve your mood, curbing your desire to consume comfort foods.</p>
+</div>
+     
+      </div>
+  </div>
+    
+  </div>
+
+
+</div>
+
+</body>
+</html>

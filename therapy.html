@@ -1,0 +1,340 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>therapy</title>
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    font-family: 'Quicksand' , sans-serif;
+  }
+  .container{
+    max-width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card{
+    position: relative;
+    margin: 20px 0;
+    width: 350px;
+    height: 500px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    transition: 1s;
+    box-shadow: inset 350px 0 50px rgba(0,0,0,.5);
+  }
+  .card:hover{
+    z-index: 1000;
+    transform: perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,.5);
+
+  }
+  .card .imgBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+  }
+  .card:hover .imgBox{
+    transform: rotateY(-135deg);
+  }
+  .card .imgBox.img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+  .card .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  #grad1{
+  height:1850px;
+  background-color: red;
+  background-image: linear-gradient(to right,#3A1C71,
+#D76D77,
+#FFAF7B); 
+}
+.text-block {
+  position: absolute;
+  top:440px;
+  
+  height:60px;
+  right: 20px;
+  background-color: #9400D3;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  width:250px;
+  
+}
+  </style>
+</head>
+
+<body>
+ <div id="grad1">
+  <center><h1 style="color:white;font-size: 40px;font-family: Times New Roman
+">THERAPY</h1></center>
+
+<div class="container">
+
+  <div class="card">
+    <div class="imgBox">
+      <img src="stress.jpg" style="width:350px;height:500px">
+      <div class="text-block">
+    <center><p style="font-size:20px;font-family: Times New Roman">STRESS</p></center>
+    
+  </div>
+    </div>
+    <div class="details">
+      <h2 style="color:#800080">Stress</h2>
+      <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Lost appetite or crave for junk food</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Getting agitated, frustrated or moody</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having difficulty relaxing</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having neck pain, back pain or headache</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Avoiding social gatherings</li>
+      </ul>
+        <h2 style="color:#800080">Solution</h2>
+        <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Eat healthy, well balanced meal</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Take a break</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Recognize when you need more help</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Make time for hobbies, relaxation and interests</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Exercise regularly. Your body can fight stress better when it is fit</li>
+      </ul>
+
+
+        
+    </div>
+  </div>
+  <div class="card">
+    <div class="imgBox">
+      <img src="relation.jpg" style="width:350px;height:500px">
+      <div class="text-block">
+    <center><p style="font-size:20px;font-family: Times New Roman">RELATIONSHIPS</p></center>
+    
+  </div>
+    </div>
+    <div class="details">
+      <h2 style="color:#800080">Relationships</h2>
+      <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Feeling disconnected from others</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Not feeling heard or listened to</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Experiencing frequent conflict</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having hard time communicating</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Feeling disconnected from others</li>
+      </ul>
+        <h2 style="color:#800080">Solution</h2>
+        <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Talk to your family members, loved ones or mates</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Retrospect oneself and gain confidence</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Put out your ideas in a newer perspective</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Invest your energy positively in the right people</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Turn down negative talk from people</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="imgBox">
+      <img src="sleep.jpg" style="width:350px;height:500px">
+      <div class="text-block">
+    <center><p style="font-size:20px;font-family: Times New Roman">SLEEP</p></center>
+    
+  </div>
+    </div>
+    <div class="details">
+      <h2 style="color:#800080">Sleep</h2>
+      <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Feeling tired when you wake</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having difficulty concentrating</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having a hard time falling asleep</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Frequently waking up during the night</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Feeling irritated or depressed</li>
+      </ul>
+        <h2 style="color:#800080">Solution</h2>
+        <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Keep in sync with your body’s natural sleep-wake cycle</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Avoid bright screen within 1-2 hours before bed</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">When it’s time to sleep, make sure the room is dark</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Spend more time outside during day-light</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Limit caffeine intake, sugary foods and refined carbs</li>
+        
+        
+      </ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="imgBox">
+      <img src="anxiety.jpg" style="width:350px;height:500px">
+      <div class="text-block">
+    <center><p style="font-size:20px;font-family: Times New Roman">ANXIETY</p></center>
+    
+  </div>
+    </div>
+    <div class="details">
+      <h2 style="color:#800080">Anxiety</h2>
+      <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Thinking or often worrying much</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Feeling restless often</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having difficulty concentrating</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Getting startled easily</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Often feeling too tired</li>
+      </ul>
+        <h2 style="color:#800080">Solution</h2>
+        <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Question your thought pattern</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Practice focused deep breathing</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Go for a walk or work on yoga</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Pen down your thoughts</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Identify and learn to manage your triggers</li>
+        
+        
+      </ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="imgBox">
+      <img src="focus.jpg" style="width:350px;height:500px">
+      <div class="text-block">
+    <center><p style="font-size:20px;font-family: Times New Roman">FOCUS</p></center>
+    
+  </div>
+    </div>
+    <div class="details">
+       <h2 style="color:#800080">Focus</h2>
+      <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having difficulty paying attention</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Often overthinking</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having difficulty concentrating</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Forgetting things frequently</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having problems managing time</li>
+      </ul>
+        <h2 style="color:#800080">Solution</h2>
+        <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Unplug for 30 mins</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Turn on some music</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Prepare your brain</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Understand where your focus needs to be</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Assess your mental focus</li>
+        
+        
+      </ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="imgBox">
+      <img src="depression.jpg" style="width:350px;height:500px">
+      <div class="text-block">
+    <center><p style="font-size:20px;font-family: Times New Roman">DEPRESSION</p></center>
+
+    
+  </div>
+    </div>
+    <div class="details">
+      <h2 style="color:#800080">Depression</h2>
+      <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Often feeling sad and unhappy</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Sleeping more or less than usual</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Feel fatigued and low on motivation</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Feeling guilty and bad about self</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Having been eating either too much or too little</li>
+      </ul>
+        <h2 style="color:#800080">Solution</h2>
+        <ul>
+        <li style="font-size:18px;font-family:Times New Roman
+">Break the cycle of negativity</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Be active</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Face your fears</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Plan your activities and daily routine</li>
+        <li style="font-size:18px;font-family:Times New Roman
+">Learn and educate yourself</li>
+
+        
+        
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+ 
+
+</div>
+
+</body>
+
+</html>

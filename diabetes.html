@@ -1,0 +1,492 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="dbcss.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+<style>
+  center{
+margin-top:2%;
+
+}
+.boxed {
+  border: 1px solid white ;
+ 
+
+  border-radius: 8px;
+
+}
+
+ 
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+html, body {
+height: 100%;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background: ;
+color: #707070;
+}
+
+
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+}
+
+p, ol, ul {
+margin-top: 0px;
+}
+
+p {
+line-height: 180%;
+}
+
+strong {
+}
+
+a {
+color: #FEE722;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a img {
+border: none;
+}
+
+img.border {
+
+
+}
+
+img.alignleft {
+float: left;
+}
+
+img.alignright {
+float: right;
+}
+
+img.aligncenter {
+margin: 0px auto;
+}
+
+hr {
+display: none;
+}
+#wrapper {
+}
+
+#banner-wrapper
+{
+overflow: hidden;
+
+background-size: cover;
+}
+
+
+
+.container {
+width: 800px;
+margin: 0px auto;
+color: black;
+}
+.container2{
+width: 800px;
+margin: 0px auto;
+
+}
+}
+.clearfix {
+clear: both;
+}
+
+/** HEADER */
+
+#header {
+overflow: hidden;
+height: 60px;
+}
+
+/** LOGO */
+
+#logo {
+position: relative;
+float: left;
+width: 480px;
+}
+
+#logo h1, #logo p {
+margin: 0px;
+line-height: normal;
+}
+
+#logo h1 a {
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+font-weight: 1000;
+text-decoration: none;
+text-transform: uppercase;
+line-height: 60px;
+color: #FFF;
+}
+
+/** MENU */
+
+#menu {
+float: right;
+}
+
+#menu ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+line-height: normal;
+}
+
+#menu li {
+float: left;
+padding: 0px 2em;
+}
+
+#menu a {
+display: block;
+line-height: 60px;
+text-decoration: none;
+text-transform: uppercase;
+color: #FFF;
+}
+
+#menu a:hover {
+text-decoration: underline;
+}
+
+/** PAGE */
+
+#page {
+overflow: hidden;
+padding: 5em 0em 0em 0em;
+}
+
+/** CONTENT */
+
+#content {
+float: center;
+width: 800px;
+}
+
+.post {
+overflow: hidden;
+padding: 50px 50px 30px 50px;
+margin-bottom: 40px;
+border: 1px solid #E7EBED;
+border-radius: 8px;
+background: #FFF;
+}
+
+.post a
+{
+color: #262626;
+
+}
+
+.post .title {
+padding: 7px 0px 0px 0px;
+letter-spacing: -1px;
+}
+
+.post .title a {
+border: none;
+font-size: 1.5em;
+letter-spacing: -2px;
+text-decoration: none;
+font-weight: 600;
+color: #222222;
+}
+
+.post .meta {
+margin-bottom: 30px;
+padding: 10px 0px 0px 0px;
+text-align: left;
+font-weight: 300;
+}
+
+.post .meta .date {
+float: left;
+}
+
+.post .meta .posted {
+float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+padding: 0px 0px 40px 0px;
+text-align: justify;
+}
+
+.links {
+padding-top: 20px;
+margin-bottom: 30px;
+}
+p.ex1{
+  padding-top:15px;
+}
+h2{
+  margin-top: 10px;
+}
+ul{
+  margin-top: 8px;
+}
+h3{
+  margin-top: 15px;
+}
+
+p{
+  margin-top: 10px;
+}
+ol{
+  margin-top: 8px;
+}
+p.a {
+  font-family: 'American Typewriter', serif;
+}
+a{
+  color: white;
+ font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  -webkit-text-decoration-line: underline;
+   text-decoration-line: underline;
+   font-size: 20px;
+ 
+ }
+ button{
+  margin-left: 10px;
+  margin-top: 10px;
+ }
+ p.none {
+  border-style: none;
+  background-color: #9400D3 ;
+  text-align: center;
+
+
+ 
+
+ }
+#grad1{
+  height: 3600px;
+  background-color: red;
+  background-image: linear-gradient(to right,#3A1C71,
+#D76D77,
+#FFAF7B);
+}
+</style>
+</head>
+
+<body>
+  <body>
+  <div id="grad1">
+<a href="index.html"><button type="button" class="btn btn-danger">Home</button></a>
+ <p class="none"><a href="diabetes form.html">Evaluate Diabetes symptoms and understand next steps ></a></p>
+<center>
+<img src="d.jpg" width="1270" height="250">
+</center>
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+<p style="font-size:30px" class="a"  >WHAT IS DIABETES?</p>
+<p style="font-size:20px;font-family:Times New Roman
+">Diabetes is a condition that impairs the body’s ability to process blood glucose. It is a chronic disease that occurs when the pancreas is no longer able to make insulin. Insulin is a hormone made by the pancreas, that acts like a key to let glucose from the food we eat pass from the blood stream into the cells in the body to produce energy. All carbohydrate foods are broken down into glucose in the blood. Insulin helps glucose get into the cells and provides energy to the body.</p></div>
+</div>
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px" class="a" >SYMPTOMS</p>
+  <li style="font-size:20px;font-family:Times New Roman
+">Increased thirst</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Frequent urination</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Extreme hunger</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Unexplained weight loss</li>
+ 
+
+</p></div>
+</div>
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px" class="a" >WHAT CAUSES DIABETES?</p>
+  <p class="ex1">
+  <p style="font-size:25px" class="a">~Type 1 Diabetes</p>
+  <p style="font-size:20px;font-family:Times New Roman
+">
+Doctors don’t know exactly what causes type 1 diabetes. The immune system mistakenly attacks and destroys insulin-producing beta cells in the pancreas .Genes may play a role in some people. It’s also possible that a virus sets off the immune system attack.<br>
+<p style="font-size:25px" class="a">~Type 2 Diabetes</p>
+<p style="font-size:20px;font-family:Times New Roman
+">
+Type 2 diabetes stems from a combination of genetics and lifestyle factors. Being overweight or obese increases your risk too.Carrying extra weight, especially in your belly, makes your cells more resistant to the effects of insulin on your blood sugar.
+<p style="font-size:25px" class="a">~Gestational Diabetes</p>
+<p style="font-size:20px;font-family:Times New Roman
+">
+Gestational diabetes is the result of hormonal changes during pregnancy. The placenta produces hormones that make a pregnant woman’s cells less sensitive to the effects of insulin. This can cause high blood sugar during pregnancy.
+
+
+ 
+</ul></p></div>
+</div>
+<div class="post">
+
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px" class="a"  >HOW TO CONTROL DIABETES?</p>
+
+  <li style="font-size:20px;font-family:Times New Roman
+">Exercise regularly</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Regulate your carb intake</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Increase your fiber intake</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Stay hydrated</li>
+<li style="font-size:20px;font-family:Times New Roman
+">Control stress levels</li>
+
+
+
+
+
+
+</div>
+</div>
+
+<p style="font-size:30px;color:black;margin-left: 20px" class="a">FOOD THAT REGULATES DIABETES</p>
+
+
+
+      <div class="container">
+ 
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="fish.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Fatty fishes such as salmon,sardines,herring,anchovies and mackerel are great sources of the omega-3 fatty acids which have major benefits for a healthy heart. Getting enough of these fats on a regular basis is especially important for diabetics, who have an increased risk of heart disease and stroke .</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="spin.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Leafy green vegetables are extremely nutritious and low in calories .They're also very low in digestible carbs, which raise your blood sugar levels. Spinach, kale and other leafy greens are good sources of several vitamins and minerals,including vitamin C,support digestion and lowers risk.</p>
+          </div>
+       
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+     
+          <img src="turmeric.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Turmeric is a spice with powerful health benefits.It's active ingredient, curcumin, can lower inflammation and blood sugar levels, while reducing heart diseases and kidney problems for those at risk.Curcumin improves insulin function. It reduces insulin resistance by helping it get into cells.</p>
+          </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+ 
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="greek yoghurt.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Greek yogurt is a great dairy choice for diabetics.Greek yogurt promotes healthy blood sugar levels, reduces risk factors for heart disease and may help with weight management.If you have diabetes, you would want to opt for plain, low-fat, or non-fat Greek yogurt that is high in protein and low in carbohydrate.</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="olive oil.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Olive oil is extremely beneficial for heart health.It contains oleic acid, a type of monounsaturated fat that has been shown to improve triglycerides and HDL, which are unhealthy levels in T2D diabetes,decreased risk to develop T2D as well as improved glucose metabolism and decrease in HbA1c.</p>
+          </div>
+       
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+     
+          <img src="flax seed.jpg" style="width:100% height:100%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Flaxseeds are an incredibly healthy food. A portion of their insoluble fiber is made up of lignans, which can decrease heart disease risk and improve blood sugar control.It's also important to keep flaxseeds tightly covered in the refrigerator to prevent them from going rancid.</p>
+          </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,510 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="dbcss.css" rel="stylesheet" type="text/css" media="all" />
+  <style>
+center{
+  margin-top:2%;
+
+}
+.boxed {
+  border: 1px solid white ;
+  border-radius: 8px;
+  background-color: white;
+}
+
+    
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+html, body {
+height: 100%;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background: #202223;
+
+
+color: black;
+}
+
+
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+}
+
+p, ol, ul {
+margin-top: 0px;
+}
+
+p {
+line-height: 180%;
+}
+
+strong {
+}
+
+a {
+color: #FEE722;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a img {
+border: none;
+}
+
+img.border {
+
+
+}
+
+img.alignleft {
+float: left;
+}
+
+img.alignright {
+float: right;
+}
+
+img.aligncenter {
+margin: 0px auto;
+}
+
+hr {
+display: none;
+}
+#wrapper {
+}
+
+#banner-wrapper
+{
+overflow: hidden;
+
+background: url("d.jpg") no-repeat top ;
+background-size: cover;
+}
+
+
+
+.container {
+width: 800px;
+margin: 0px auto;
+}
+.container2{
+width: 800px;
+margin: 0px auto;
+
+}
+}
+.clearfix {
+clear: both;
+}
+
+/** HEADER */
+
+#header {
+overflow: hidden;
+height: 60px;
+}
+
+/** LOGO */
+
+#logo {
+position: relative;
+float: left;
+width: 480px;
+}
+
+#logo h1, #logo p {
+margin: 0px;
+line-height: normal;
+}
+
+#logo h1 a {
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+font-weight: 1000;
+text-decoration: none;
+text-transform: uppercase;
+line-height: 60px;
+color: #FFF;
+}
+
+/** MENU */
+
+#menu {
+float: right;
+}
+
+#menu ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+line-height: normal;
+}
+
+#menu li {
+float: left;
+padding: 0px 2em;
+}
+
+#menu a {
+display: block;
+line-height: 60px;
+text-decoration: none;
+text-transform: uppercase;
+color: #FFF;
+}
+
+#menu a:hover {
+text-decoration: underline;
+}
+
+/** PAGE */
+
+#page {
+overflow: hidden;
+padding: 5em 0em 0em 0em;
+}
+
+/** CONTENT */
+
+#content {
+float: center;
+width: 800px;
+}
+
+.post {
+overflow: hidden;
+padding: 50px 50px 30px 50px;
+margin-bottom: 40px;
+border: 1px solid #E7EBED;
+border-radius: 8px;
+background: #FFF;
+}
+
+.post a
+{
+color: #262626;
+
+}
+img {
+  
+  padding: 5px;
+  
+}
+
+
+
+
+.post .title {
+padding: 7px 0px 0px 0px;
+letter-spacing: -1px;
+}
+
+.post .title a {
+border: none;
+font-size: 1.5em;
+letter-spacing: -2px;
+text-decoration: none;
+font-weight: 600;
+color: #222222;
+}
+
+.post .meta {
+margin-bottom: 30px;
+padding: 10px 0px 0px 0px;
+text-align: left;
+font-weight: 300;
+}
+
+.post .meta .date {
+float: left;
+}
+
+.post .meta .posted {
+float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+padding: 0px 0px 40px 0px;
+text-align: justify;
+}
+
+.links {
+padding-top: 20px;
+margin-bottom: 30px;
+}
+h2{
+  margin-top: 10px;
+}
+ul{
+  margin-top: 8px;
+}
+h3{
+  margin-top: 15px;
+}
+
+p{
+  margin-top: 10px;
+}
+ol{
+  margin-top: 8px;
+}
+p.a {
+  font-family: 'American Typewriter', serif;
+}
+#grad1{
+  height: 3100px;
+  background-color: red;
+  background-image: linear-gradient(to right,#3A1C71,
+#D76D77,
+#FFAF7B); 
+}
+
+a{
+  color: white;
+ font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  -webkit-text-decoration-line: underline; 
+   text-decoration-line: underline;
+   font-size: 20px;
+  
+ }
+ button{
+  margin-left: 10px;
+  margin-top: 10px;
+ }
+ p.none {
+  border-style: none;
+  background-color: #9400D3 ;
+  text-align: center;
+
+
+  
+
+ }
+  </style>
+  
+</head>
+
+<body>
+  <div id="grad1">
+
+  <a href="index.html"><button type="button" class="btn btn-danger">Home</button></a>
+ <p class="none"><a href="thyroid form.html">Evaluate thyroid symptoms and understand next steps ></a></p>
+<center>
+<img src="thyroid.jpg" width="1300" height="250">
+</center>
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+<p style="font-size:30px;color:black" class="a">WHAT IS THYROID?</p>
+  <p style="font-size:20px;font-family:Times New Roman
+">Thyroid disorders are conditions that affect the thyroid gland, a butterfly-shaped gland in the front of the neck. The thyroid has important roles to regulate numerous metabolic processes throughout the body.  When your thyroid makes either too much or too little of these important hormones, it’s called a thyroid disease. There are several different types of thyroid disease, including hyperthyroidism, hypothyroidism, thyroiditis and Hashimoto’s thyroiditis.</p></div>
+</div>
+  <div class="post">
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;color:black;margin-left: 19px" class="a">SYMPTOMS</p>
+
+  <ul>
+  <li style="font-size:20px;font-family:Times New Roman
+">Experiencing anxiety, irritability and nervousness</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Losing weight</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Having an enlarged thyroid gland or a goiter</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Very having muscle weakness and tremors</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Experiencing irregular menstrual periods 
+</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Having vision problems or eye irritation
+</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Thinning, brittle hair</li>
+  
+
+</ul></div>
+</div>
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;color:black;margin-left: 19px" class="a">WHAT CAUSES THYROID?</p>
+<ul>
+  <li style="font-size:20px;font-family:Times New Roman
+">Iodine deficiency
+</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">A non-functioning thyroid gland
+</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Thyroiditis</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Graves disease
+</li>
+ 
+</ul></div>
+</div>
+<div class="post">
+
+<div style="clear: both;"></div>
+<div class="entry"><p style="font-size:30px;color:black;margin-left: 19px" class="a">HOW TO CONTROL THYROID?</p>
+
+<ol>
+ <li style="font-size:20px;font-family:Times New Roman
+">Frequent blood test</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Iodide upatke test</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Add nutrients like selenium and zinc</li>
+  <li style="font-size:20px;font-family:Times New Roman
+">Intake alkaloids</li>
+ 
+
+
+</ol></div>
+</div>
+
+<p style="font-size:30px;color:black;margin-left: 19px" class="a">FOOD THAT REGULATE THYROID</p>
+  
+
+
+      <div class="container">
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="salt.jpg" style="width:100%">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Your thyroid needs iodine to work well. Most people in the U.S.
+get enough of this element from their diet, usually through fish
+and dairy products. Make sure you’re using iodized table salt at
+home.</p>
+          </div>
+     
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+       
+          <img src="leafy green.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Leafy greens are packed with vitamins, minerals and fiber.Potassium helps your kidneys get rid of more sodium through your urine. This in turn lowers your blood pressure, heart disease, obesity.</p>
+          </div>
+        
+      </div>
+    </div>
+
+  
+  
+    <div class="col-md-4 ">
+      <div class="thumbnail">
+     
+          <img src="seafood.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Fish, shrimp, and seaweed are great sources of iodine. You need
+iodine for a healthy thyroid, but avoid large amounts of iodine-rich
+choices. That may make your condition worse and cause concern.</p>
+          </div>
+        
+      </div>
+    </div>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+  
+    <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="organmeats.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Organ meats are very high in some vitamins and nutrients.Liver is the most nutrient dense organ meat, and it is a powerful source of vitamin A. Vitamin A is beneficial for eye health and for reducing diseases that cause inflammation.</p>
+          </div>
+     
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="frozen.jpg" alt="Lights" style="width:100%;height:5%">
+          <div class="caption">
+            <p  style="font-size:16px;font-family:Times New Roman
+">Dairy products like yogurt, ice cream, and milk contain iodine. The thyroid needs iodine to prevent its glands from becoming enlarged—known as goiter. These are good bacteria that can help build a healthy gut, lower blood pressure,and improve your immune system.</p>
+          </div>
+     
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="fresheggs.jpg" alt="Lights" style="width:100%;height:5%">
+          <div class="caption">
+            <p style="font-size:16px;font-family:Times New Roman
+">Eggs contain healthy amounts of both selenium and iodine. They help protect against heart disease. The protein in eggs helps repair body tissues, including muscle.For the most health benefits, eat the whole egg, as the yolk holds most of the nutrients. </p>
+</div>
+     
+      </div>
+  </div>
+    
+  </div>
+</div>
+
+</div>
+
+
+</body>
+</html>

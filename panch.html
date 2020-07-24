@@ -1,0 +1,656 @@
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="dbcss.css" rel="stylesheet" type="text/css" media="all" />
+	<style>
+		topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+html, body {
+height: 100%;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background: #202223;
+font-family: 'Open Sans', sans-serif;
+font-size: 10pt;
+color: #707070;
+}
+
+
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+}
+
+p, ol, ul {
+margin-top: 0px;
+}
+
+p {
+line-height: 180%;
+}
+
+strong {
+}
+
+a {
+color: #FEE722;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a img {
+border: none;
+}
+
+img.border {
+
+
+}
+
+img.alignleft {
+float: left;
+}
+
+img.alignright {
+float: right;
+}
+
+img.aligncenter {
+margin: 0px auto;
+}
+
+hr {
+display: none;
+}
+#wrapper {
+}
+
+#banner-wrapper
+{
+overflow: hidden;
+
+background: url("d.jpg") no-repeat top ;
+background-size: cover;
+}
+
+
+
+.container {
+width: 800px;
+margin: 0px auto;
+}
+.container2{
+width: 800px;
+margin: 0px auto;
+
+}
+}
+.clearfix {
+clear: both;
+}
+
+/** HEADER */
+
+#header {
+overflow: hidden;
+height: 60px;
+}
+
+/** LOGO */
+
+#logo {
+position: relative;
+float: left;
+width: 480px;
+}
+
+#logo h1, #logo p {
+margin: 0px;
+line-height: normal;
+}
+
+#logo h1 a {
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+font-weight: 1000;
+text-decoration: none;
+text-transform: uppercase;
+line-height: 60px;
+color: #FFF;
+}
+
+/** MENU */
+
+#menu {
+float: right;
+}
+
+#menu ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+line-height: normal;
+}
+
+#menu li {
+float: left;
+padding: 0px 2em;
+}
+
+#menu a {
+display: block;
+line-height: 60px;
+text-decoration: none;
+text-transform: uppercase;
+color: #FFF;
+}
+
+#menu a:hover {
+text-decoration: underline;
+}
+
+/** PAGE */
+
+#page {
+overflow: hidden;
+padding: 5em 0em 0em 0em;
+}
+
+/** CONTENT */
+
+#content {
+float: center;
+width: 800px;
+}
+
+.post {
+overflow: hidden;
+padding: 50px 50px 30px 50px;
+margin-bottom: 40px;
+border: 1px solid #E7EBED;
+border-radius: 8px;
+background: #FFF;
+}
+
+.post a
+{
+color: #262626;
+
+}
+
+.post .title {
+padding: 7px 0px 0px 0px;
+letter-spacing: -1px;
+}
+
+.post .title a {
+border: none;
+font-size: 1.5em;
+letter-spacing: -2px;
+text-decoration: none;
+font-weight: 600;
+color: #222222;
+}
+
+.post .meta {
+margin-bottom: 30px;
+padding: 10px 0px 0px 0px;
+text-align: left;
+font-weight: 300;
+}
+
+.post .meta .date {
+float: left;
+}
+
+.post .meta .posted {
+float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+padding: 0px 0px 40px 0px;
+text-align: justify;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height:450px;
+}
+h2.thick {
+  font-weight: bold;
+}
+h2.small {
+  font-variant: small-caps;
+}
+h2{
+	margin-top: 15px;
+	color:black;
+}
+ul{
+	margin-top: 15px;
+}
+h3{
+	margin-top: 20px;
+	color:black;
+}
+img{
+	margin-top: 20px;
+}
+p{
+	margin-top:25px;
+	color: black;
+}
+li{
+	color: black;
+}
+p.a {
+  font-family: 'American Typewriter', serif;
+}
+
+.links {
+padding-top: 20px;
+margin-bottom: 30px;
+}
+#grad1{
+  height: 21600px;
+  background-color: red;
+  background-image: linear-gradient(to right,#3A1C71,
+#D76D77,
+#FFAF7B); 
+}
+
+
+</style>
+</head>
+<body>
+
+	<div id="grad1">
+	   <center><h1 style="color:white;margin-right:40px;font-family: Times New Roman
+">PANCH INDRIYAS</h1></center>
+	
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+            <p style="font-size:18px;font-family:Times New Roman
+">Do we know the importance of the pancha indriyas?
+Lets learn………..
+Panch means five and indriyas refer to senses. The
+panch indiyas are the powerhouseof our body.
+The mind and the indriyas are one. They are an
+extension of mind. The sea is fed by the rivers and
+cannot exist without the rivers. In the same way, the
+mind is fed by the indriyas and cannot exist without
+them. If you have controlled the indriyas then you have
+controlled your mind.</p>
+<p style="font-size:25px" class="a" >The panch indriyas that control our body are</p>
+<ul class="ex1">
+<li style="font-size:18px;font-family:Times New Roman
+">Akshi or Netra-Anatomical eyes</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Karna-Anatomical ears</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Nasa-Anatomical nose</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Jihwa-Anatomical tongue</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Twak-Anatomical skin</li>
+</ul>
+<p style="font-size:18px;font-family:Times New Roman
+">Each indriya has a task to perform to keep our body
+active.</p>
+<p style="font-size:25px" class="a" >Pancha Indriya Arthaas</p>
+<ul class="ex1">
+	<li  style="font-size:18px;font-family:Times New Roman
+">Shabda-or sound is the Indriyaartha of Shrotra indriya</li>
+	<li style="font-size:18px;font-family:Times New Roman
+" >Sparsha-or touch (feel) is the Indriyartha of Sparshan</li>
+<li style="font-size:18px;font-family:Times New Roman
+" >Roopa-or sight(vision) is the Indriyaartha of Chakshu Indriya</li>
+	<li style="font-size:18px;font-family:Times New Roman
+" >Rasa-or taste is the Indriyaartha of Rasa Indriya</li>
+	<li style="font-size:18px;font-family:Times New Roman
+" >Gandha-or smell is the Indriyaartha of Ghraana Indriya</li>
+</ul>
+<p style="font-size:25px" class="a" >How do the panch indriyas affect our body?</p>
+
+<p style="font-size:18px;font-family:Times New Roman
+" >The panch indriyas play a vital role in keeping our mind at pace. As mentioned earlier, the indriyas are otherwise called senses. It is close to impossible for a common man to live his everyday life without the panch indiyas.
+
+</p>
+<h2 style="font-size:25px;font-family:Times New Roman
+"   class="thick">Let’s learn how to keep your panch indriyas active.</h2>
+          </div>
+     
+      </div>
+    </div>
+</div>
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+	
+	<img src="netra.jpg" alt="Lights" style="width:100%">
+
+	<center><h3 style="font-size:24px;font-family:verdana"><b>NETRA</b></h3>
+	</center>
+
+	<p style="font-size:25px" class="a" >1. Eat Well</p>
+
+	<img src="eat.jpg" alt="Lights" class="ex1"  style="width:100%">
+		<p class="ex1" style="font-size:18px;font-family:Times New Roman
+">Good eye health starts with the food on your
+plate. Nutrients like omega-3 fatty acids, lutein, zinc, and vitamins C and E might help ward off age- related vision problems like macular degeneration and cataracts. To get them, fill your plate with:</p>
+<ul class="ex1">
+	<li style="font-size:18px;font-family:Times New Roman
+">Green leafy vegetables like spinach, kale, and
+collards</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Salmon, tuna, and other oily fish</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Eggs, nuts, beans, and other nonmeat protein sources</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Oranges and other citrus fruits or juices</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Oysters and pork</li>
+</ul>
+<p style="font-size:25px"  class="a">2. Quit Smoking</p>
+
+	<img src="quit.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">It makes you more likely to get cataracts, damage to your optic nerve, and macular degeneration, among many other medical problems. If you've tried to kick the
+habit  before only to start again, keep at it. The more times you try to quit, the more likely you are to succeed.</p>
+<p style="font-size:25px" class="a">3. Wear Sunglasses</p>
+
+	<img src="wear.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">The right pair of shades will help protect your eyes from
+the sun's ultraviolet (UV) rays. Too much UV exposure boosts your chances of cataracts and macular degeneration. </p>
+<p style="font-size:18px;font-family:Times New Roman
+">Choose a pair that blocks 99% to 100% of UVA and UVB rays. Wraparound lenses help protect your eyes from the side. Polarized lenses reduce glare while you drive.</p>
+<p style="font-size:25px" class="a">4. Look Away From the Computer Screen</p>
+
+	<img src="getaway.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">Staring at a computer or phone screen for too long
+can cause:</p>
+<ul class="ex1">
+	<li style="font-size:18px;font-family:Times New Roman
+">Eyestrain</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Blurry Vision</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Trouble Focusing at a Distance</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Dry Eyes</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Headaches</li>
+<li style="font-size:18px;font-family:Times New Roman
+">Neck, Back, and Shoulder Pain</li>
+</ul>
+<p style="font-size:25px" class="a">5. Visit Your Eye Doctor Regularly</p>
+
+	<img src="check.jpg" alt="Lights" style="width:100%" class="ex1">
+		<p style="font-size:18px;font-family:Times New Roman
+">Everyone needs a regular eye exam, even young children. It helps protect your sight and lets you see your best.</p>
+		<p style="font-size:18px;font-family:Times New Roman
+">Eye exams can also find diseases, like glaucoma, that
+have no symptoms. It's important to spot them early on, when they're easier to treat.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+	<img src="karna.jpg" alt="Lights" style="width:100%">
+	<center><h3 style="font-size:24px;font-family:verdana"><b>KARNA</b></h3>
+	</center>
+	<p style="font-size:25px" class="a">1. Use earplugs around loud noises</p>
+	<img src="reduce.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">Noise-induced hearing loss because of loud work or
+leisure environments is a serious deed.
+Earplugs are convenient and easy to obtain.
+Musicians earplugs are custom earplugs with filters that
+allow a person to hear conversations and music but still
+reduce harmful sound levels while maintaining the
+quality of the original sound as closely as possible.</p>
+<p style="font-size:25px" class="a">2. Turn the volume down</p>
+	<img src="turn.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">If you like to enjoy music through headphones or
+earbuds, you can protect your ears by following the 60/60 rule. The suggestion is to listen with headphones at no more than 60% volume for no more than 60 minutes a day. Don't forget that any loud music, not just music played
+through headphones, presents a risk for noise-induced hearing loss. If you're hosting a social event, keep the music at a volume which won't force people to shout in order to hold a conversation</p>
+<p  style="font-size:25px" class="a">3. Give you ears time to recover</p>
+	<img src="time.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">If you are exposed to loud noises for a prolonged period of time, like at a concert or a bar, your ears need time to recover. If you can, step outside for five minutes every so often in order to let them rest.</p>
+		<p class="a" style="font-size:25px">4. Stop using cotton swabs in your ears</p>
+	<img src="cotton.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">It’s common for people to use cotton swabs to clean wax
+out of their ear canal, but this is definitely not advisable. A little bit of wax in your ears is not only normal, but it’s also important. The ears are self-cleaning organs, and wax stops dust and other harmful particles from entering
+the canal. Plus, inserting anything inside your ear canals risks damaging sensitive organs like your ear drum.</p>
+<p class="a" style="font-size:25px">5. Keep your ears dry</p>
+	<img src="dry.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">Excess moisture can allow bacteria to enter and attack
+the ear canal. This can cause swimmer's ear or other
+types of ear infections, which can be dangerous for your
+
+hearing ability. Be sure you gently towel-dry your ears
+after bathing or swimming. If you can feel water in the
+ear, tilt your head to the side and tug lightly on the ear
+lobe to coax the water out.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+	<img src="nasa.jpg" alt="Lights" style="width:100%">
+	<center><h3 style="font-size:24px;font-family:verdana"><b>NASA</b></h3>
+	</center>
+	<p class="a" style="font-size:25px">1. Clean your nose regularly</p>
+	<img src="nose.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">Cotton buds and salt water are simple yet effective for
+cleaning and washing your nostrils. Often trimming your nose hair can cause dust particles to enter into the body easily.</p>
+<p class="a" style="font-size:25px">2. Maintain good humidity level</p>
+	<img src="drink.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">Dry air may irritate the nostrils. Constantly picking your nose can lead to damage on the sensitive inner layes.</p>
+		<p class="a" style="font-size:25px">3. Avoid dusty rooms</p>
+	<img src="dusky.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">Dust can trigger allergies and itchy sensation in the
+nose.</p>
+<p style="font-size:18px;font-family:Times New Roman
+">Good amount of moisture and hair is need to control any
+dust particles from entering the body through the canals.</p>
+<p class="a" style="font-size:25px">4. Avoid cigarette smoke</p>
+	<img src="avoid.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">According to the website www.healthguidance.org, the
+exposure to cigarette may lead to the accumulation of mucus in the respiratory channel.</p>
+<p class="a" style="font-size:25px">5. Don’t let any foreign object get into your nostrils</p>
+	<img src="dont.jpg" alt="Lights" style="width:100%">
+		<p style="font-size:18px;font-family:Times New Roman
+">This can scratch and bleeds the surface of the nostrils,
+which can lead to infection.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+	<img src="jihwa.jpg" alt="Lights" style="width:100%">
+	<center><h3 style="font-size:24px;font-family:verdana"><b>JIWHA</b></h3>
+	</center>
+	<p class="a" style="font-size:25px">1. Brush your tongue everyday</p>
+	<img src="teeth.jpg" alt="Lights" style="width:100%" class="ex1">
+		<p style="font-size:18px;font-family:Times New Roman
+">Did you know that your tongue can also collect bacteria? In fact, if not kept clean, you can experience bad breath, loss of taste, and even changes in the color of your
+tongue! However, you can avoid these issues by
+cleaning your tongue at least twice a day.</p>
+<p class="a" style="font-size:25px">2. A healthy diet goes a long way</p>
+	<img src="healthy.jpg" alt="Lights" style="width:100%" class="ex1">
+		<p style="font-size:18px;font-family:Times New Roman
+">Your tongue is a muscle. And just like with your other
+muscles, a healthy diet is critical to keeping your tongue strong. We recommend trying foods with known anti-microbial properties, such as chopped onions, garlic, ginger, and coconuts. This will help you to fight the
+harmful bacteria that resides on your tongue. You might also consider adding iron-rich foods into your diet. Try eating spinach, red meat, seafood, and poultry for an added boost to your tongue’s health.</p>
+<p class="a" style="font-size:25px">3. Staying hydrated is key</p>
+	<img src="hydrated.jpg" alt="Lights" style="width:100%" class="ex1">
+		<p style="font-size:18px;font-family:Times New Roman
+">Did you know that dehydration can cause problems for
+your tongue’s health? When you don’t drink enough
+water, your body halts the production of saliva. Saliva is your body’s natural way of removing harmful bacteria from the mouth that can cause tooth decay, halitosis (bad breath), and more. Therefore, to keep your tongue in good shape, try to drink around two liters of water per
+day.</p>
+<p class="a" style="font-size:25px">4. Smoking is very harmful to the tongue</p>
+	<img src="nosmoking.jpg" alt="Lights" style="width:100%" class="ex1">
+		<p style="font-size:18px;font-family:Times New Roman
+">Smoking can be quite dangerous for your
+health—including the health of your tongue! Firstly, smokers are more likely to get oral cancer. Cancer of the tongue often manifests as a firm crater and can make it quite painful to speak. Secondly, smoking can make it more difficult for you to enjoy your favorite foods.
+Studies have shown that tobacco products can
+permanently change the shape of your taste
+buds—making them flatter— and make it more difficult for you to taste bitter foods and beverages like coffee.</p>
+<p class="a" style="font-size:25px">5. Visiting your dentist every six months is highly
+recommended</p>
+	<img src="regular.jpg" alt="Lights" style="width:100%" class="ex1">
+		<p style="font-size:18px;font-family:Times New Roman
+">Getting a regular dental check-up is critical to
+maintaining your oral health. According to the American Dental Association, you should visit your dentist at least once every six months. This will allow your dentist to check for any oral health issues—such as cancer of the tongue—and receive a thorough professional cleaning.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="banner-wrapper"></div>
+<div id="page" class="container">
+<div id="content">
+<div class="post">
+<div style="clear: both;"></div>
+<div class="entry">
+	<img src="twak.jpg" alt="Lights" style="width:100%">
+	<center><h3 style="font-size:24px;font-family:verdana"><b>TWAK</b></h3>
+	</center>
+	<p class="a" style="font-size:25px">1. Eat a healthful diet</p>
+	<img src="diet.jpg" alt="Lights" style="width:100%" class="ex1">
+		<p style="font-size:18px;font-family:Times New Roman
+">What you eat is as important as the products that you
+put on your skin. Your diet could improve your skin health from the inside out, so a clear complexion begins with eating a healthful diet. Mangoes ,tomatoes and olive oil do the right job here.</p>
+
+
+	<p class="a" style="font-size:25px">2. Keep stress in check</p>
+	<img src="pimple.jpg" alt="Lights" style="width:100%" class="ex1">
+		<p style="font-size:18px;font-family:Times New Roman
+">Have you ever noticed that right before an important
+event, an unsightly pimple appears on your face? Well, scientists have identified some links between stress levels and skin problems.</p>
+<ul>
+<li style="font-size:18px;font-family:Times New Roman
+">Itchy Skin</li>
+	<li style="font-size:18px;font-family:Times New Roman
+">Hair Loss</li>
+	<li style="font-size:18px;font-family:Times New Roman
+">Flaky, Oily, or Waxy Patches On The Scalp</li>
+	<li style="font-size:18px;font-family:Times New Roman
+">Troublesome Sweating</li>
+	<li style="font-size:18px;font-family:Times New Roman
+">Scaly Skin</li>
+	<li style="font-size:18px;font-family:Times New Roman
+">Hand Rashes</li>
+</ul>
+<p style="font-size:18px;font-family:Times New Roman
+">Reducing your stress levels may lead to clearer skin. If you think that stress is having an impact on your skin, try stress reduction techniques such as tai chi, yoga, or
+meditation.</p>
+<p class="a" style="font-size:25px">3. Keep moisture in the skin</p>
+	<img src="moisture.jpg" alt="Lights" style="width:100%" class="ex1">
+		<p style="font-size:18px;font-family:Times New Roman
+">Skin moisturizers keep the top layer of skin cells hydrated and seal in moisture. Moisturizers often contain
+ humectants to attract moisture, occlusive agents to retain moisture in the skin, and emollients to smooth the spaces between skin cells.</p>
+<p style="font-size:18px;font-family:Times New Roman
+">Take one 5- to 10-minute shower or bath per day. Excessive washing can strip away the oily layer of the skin and dry it out..</p>
+<ul class="ex1">
+	<li style="font-size:18px;font-family:Times New Roman
+">Use warm water instead of hot water.</li>
+	<li style="font-size:18px;font-family:Times New Roman
+">Minimize the use of harsh soaps. Use a gentle and fragrance-free cleanser.</li>
+	<li style="font-size:18px;font-family:Times New Roman
+">Stay away from abrasive scrub brushes, bath sponges, and washcloths that can damage the skin’s surface.</li>
+	<li style="font-size:18px;font-family:Times New Roman
+">Pat skin gently dry with a towel.</li>
+	
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+</body>
+</html>
